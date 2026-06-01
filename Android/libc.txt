@@ -1,0 +1,6 @@
+include_dir=Ndk
+sys_include_dir=Ndk
+crt_dir=Ndk
+msvc_lib_dir=
+kernel32_lib_dir=
+gcc_dir=
