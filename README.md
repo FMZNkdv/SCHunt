@@ -15,7 +15,7 @@ cd SCHunt
 ```
 
 ## Change
-Change the package name in [init.zig](https://github.com/FMZNkdv/Config/init.zig) to your own package
+Change the package name in [init.zig](https://github.com/FMZNkdv/SCHunt/blob/main/Config/init.zig) to your own package
 
 ## Building
 
