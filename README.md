@@ -20,7 +20,7 @@ Change the package name in [init.zig](https://github.com/FMZNkdv/SCHunt/blob/mai
 ## Building
 
 ```bash
-zig build-lib main.zig -target aarch64-linux-android -dynamic -O ReleaseSmall --name ScHunt --libc Android/libc.txt -lc -llog -L Ndk/
+zig build-lib ScHunt.zig -target aarch64-linux-android -dynamic -O ReleaseSmall --name ScHunt --libc Android/libc.txt -lc -llog -L Ndk/
 ```
 
 ## Inject
