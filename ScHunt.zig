@@ -15,7 +15,7 @@ fn threadLoop() void {
 
     while (true) {
         scanner.runScan(io, allocator) catch |err| {
-            logger.logFmt(logger.err, allocator, "Onderwerpfout: {s}", .{@errorName(err)});
+            logger.logFmt(logger.err, allocator, "[ ERROR  ]: {s}", .{@errorName(err)});
         };
         Io.Clock.Duration.sleep(delay, io) catch {};
     }
